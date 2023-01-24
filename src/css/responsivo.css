@@ -1,5 +1,5 @@
 
-@media (max-width: 1200px) {
+@media all and (max-width: 1200px) {
     body {
         background-color:#f44336;
     }
@@ -36,7 +36,7 @@
 
 }
 
-@media (max-width: 500px){
+@media all and (max-width: 500px){
     .cabecalho {
     flex-wrap: wrap;
     justify-content: center;
@@ -58,7 +58,7 @@
 
 }
 
-@media (max-width: 376px){
+@media all and (max-width: 376px){
    .modal #video {
     width: 250px;
     height: 140px;
